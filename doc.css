@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #0a0202;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #090606;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 10%;
+    background: linear-gradient(rgba(244, 244, 244, 0.9), rgba(244, 244, 244, 0.9)), url('hero-background.jpg') center/cover no-repeat;
+    color: #333;
+    image-resolution: 20px;
+}
+
+.slider {
+    /* Add your styles for the image slider */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #ff7f50;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #ff6347, #ff7f50);
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+#about-me img {
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.bio {
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #ff7f50;
+}
+
+#skills {
+    text-align: center;
+    padding: 100px 10%;
+    background-color: #f9f9f9;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.skills-list li {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#contact {
+    text-align: center;
+    padding: 100px 10%;
+    background: linear-gradient(135deg, #f9f9f9, #fff);
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff7f50;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff6347, #ff7f50);
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
